@@ -1,0 +1,75 @@
+<html>
+<head>
+    <title>Registration Page</title>
+</head>
+<body>
+    <h1>Registration Page</h1>
+
+    <form action="Login.html" method="GET">
+        <table>
+            <!-- First Name -->
+            <tr>
+                <td><label for="fname">First Name:</label></td>
+                <td><input type="text" id="fname" name="fname" required></td>
+            </tr>
+
+            <!-- Last Name -->
+            <tr>
+                <td><label for="lname">Last Name:</label></td>
+                <td><input type="text" id="lname" name="lname" required></td>
+            </tr>
+
+            <!-- Date of Birth -->
+            <tr>
+                <td><label for="dob">Date of Birth:</label></td>
+                <td><input type="date" id="dob" name="dob" required></td>
+            </tr>
+
+            <!-- Email ID -->
+            <tr>
+                <td><label for="email">Email ID:</label></td>
+                <td><input type="email" id="email" name="email" required></td>
+            </tr>
+
+            <!-- Mobile Number -->
+            <tr>
+                <td><label for="mobile">Mobile No:</label></td>
+                <td><input type="tel" id="mobile" name="mobile" pattern="[0-9]{10}" required></td>
+            </tr>
+
+            <!-- Address -->
+            <tr>
+                <td><label for="address">Address:</label></td>
+                <td><textarea id="address" name="address" rows="4" cols="30" required></textarea></td>
+            </tr>
+
+            <!-- Username -->
+            <tr>
+                <td><label for="uname">Username:</label></td>
+                <td><input type="text" id="uname" name="uname" required></td>
+            </tr>
+
+            <!-- Password -->
+            <tr>
+                <td><label for="pass">Password:</label></td>
+                <td><input type="password" id="pass" name="pass" required></td>
+            </tr>
+
+            <!-- Confirm Password -->
+            <tr>
+                <td><label for="confirmpass">Confirm Password:</label></td>
+                <td><input type="password" id="confirmpass" name="confirmpass" required></td>
+            </tr>
+
+            <!-- Register Button -->
+            <tr>
+                <td colspan="2" style="text-align: center;">
+                    <input type="submit" value="Register">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+    <p>Already have an account? Kindly <a href="Login.html">Login here</a></p>
+</body>
+</html>
